@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e70e5dd-8fc0-4100-86ea-f43db167dd42" name="Changes" comment="se non va mi ammazzo">
+    <list default="true" id="0e70e5dd-8fc0-4100-86ea-f43db167dd42" name="Changes" comment="provimo">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="1062" />
+    <option name="totalTimeSeconds" value="5212" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -70,6 +73,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tagliani.fed.2005/IdeaProjects/prodotti",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +83,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.avbo.Main" />
+      <module name="AdventureGame.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.avbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdventureGame [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.AdventureGame [build]" />
       </list>
     </recent_temporary>
@@ -117,7 +135,7 @@
       <updated>1673508396071</updated>
       <workItem from="1673508396881" duration="145000" />
       <workItem from="1673508562650" duration="103000" />
-      <workItem from="1673508679554" duration="1435000" />
+      <workItem from="1673508679554" duration="7082000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1673508877433</created>
@@ -161,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673509861512</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="provimo">
+      <created>1673510180877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673510180877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +201,7 @@
     <MESSAGE value="bho sono allibito" />
     <MESSAGE value="vediamo" />
     <MESSAGE value="se non va mi ammazzo" />
-    <option name="LAST_COMMIT_MESSAGE" value="se non va mi ammazzo" />
+    <MESSAGE value="provimo" />
+    <option name="LAST_COMMIT_MESSAGE" value="provimo" />
   </component>
 </project>
