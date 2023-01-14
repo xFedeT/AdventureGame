@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e70e5dd-8fc0-4100-86ea-f43db167dd42" name="Changes" comment="provimo">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" afterDir="false" />
+    <list default="true" id="0e70e5dd-8fc0-4100-86ea-f43db167dd42" name="Changes" comment="Generazione Mappa Protoripo">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/GameLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/screen/MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="5212" />
+    <option name="totalTimeSeconds" value="9014" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -56,8 +60,18 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,24 +86,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/tagliani.fed.2005/IdeaProjects/prodotti",
+    "last_opened_file_path": "C:/Users/tagliani.fed.2005/.m2/repository/jsfml/jsfml.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.avbo.Main" />
+  <component name="RunManager" selected="Application.GameLauncher">
+    <configuration name="GameLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.avbo.game.GameLauncher" />
       <module name="AdventureGame.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.avbo.*" />
+          <option name="PATTERN" value="it.avbo.game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,7 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GameLauncher" />
         <item itemvalue="Gradle.AdventureGame [build]" />
       </list>
     </recent_temporary>
@@ -135,7 +153,8 @@
       <updated>1673508396071</updated>
       <workItem from="1673508396881" duration="145000" />
       <workItem from="1673508562650" duration="103000" />
-      <workItem from="1673508679554" duration="7082000" />
+      <workItem from="1673508679554" duration="7103000" />
+      <workItem from="1673691702830" duration="4400000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1673508877433</created>
@@ -186,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673510180877</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Generazione Mappa Protoripo">
+      <created>1673517246952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673517246952</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +228,7 @@
     <MESSAGE value="vediamo" />
     <MESSAGE value="se non va mi ammazzo" />
     <MESSAGE value="provimo" />
-    <option name="LAST_COMMIT_MESSAGE" value="provimo" />
+    <MESSAGE value="Generazione Mappa Protoripo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generazione Mappa Protoripo" />
   </component>
 </project>
