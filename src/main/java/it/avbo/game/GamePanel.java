@@ -1,6 +1,6 @@
 package it.avbo.game;
 
-import it.avbo.game.statemanager.GameStateManager;
+import it.avbo.game.managers.GameStateManager;
 import it.avbo.game.util.handler.KeyHandler;
 import it.avbo.game.util.handler.MouseHandler;
 
@@ -12,6 +12,7 @@ public class GamePanel extends JPanel implements Runnable {
 
     public static int width;
     public static int height;
+    public static int oldFrameCount;
 
     private Thread thread;
     public boolean running = false;
@@ -132,8 +133,7 @@ public class GamePanel extends JPanel implements Runnable {
 
     public void render() {
         if (graphics == null) return;
-
-        graphics.setColor(new Color(66, 134, 244));
+        graphics.setColor(Color.WHITE);
         graphics.fillRect(0, 0, width, height);
         gameStateManager.render((Graphics2D) graphics);
     }

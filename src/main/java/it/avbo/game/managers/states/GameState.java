@@ -1,5 +1,6 @@
-package it.avbo.game.statemanager;
+package it.avbo.game.managers.states;
 
+import it.avbo.game.managers.GameStateManager;
 import it.avbo.game.util.handler.KeyHandler;
 import it.avbo.game.util.handler.MouseHandler;
 

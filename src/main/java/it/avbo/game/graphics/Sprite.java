@@ -116,9 +116,9 @@ public class Sprite {
         float x = pos.x;
         float y = pos.y;
 
-        for (int i = 0; i < img.size(); i++) {
-            if (img.get(i) != null) {
-                g.drawImage(img.get(i), (int) x, (int) y, width, height, null);
+        for (BufferedImage image : img) {
+            if (image != null) {
+                g.drawImage(image, (int) x, (int) y, width, height, null);
             }
 
             x += xOffset;

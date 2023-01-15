@@ -4,15 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e70e5dd-8fc0-4100-86ea-f43db167dd42" name="Changes" comment="Generazione Mappa Protoripo">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/GameLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/screen/MainMenu.java" afterDir="false" />
+    <list default="true" id="0e70e5dd-8fc0-4100-86ea-f43db167dd42" name="Changes" comment="Primo Sprite e prima Scritta">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/TileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/map/TileMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/map/TileMapNorm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/map/TileMapObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/map/blocks/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/map/blocks/HoleBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/map/blocks/NormBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/map/blocks/ObjBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/maps/AMap.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/maps/AMap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/maps/d_tileset.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/graphics/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/graphics/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/statemanager/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/states/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/statemanager/GameStateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/GameStateManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/statemanager/states/MenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/states/MenuState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/statemanager/states/PauseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/states/PauseState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/statemanager/states/PlayState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/states/PlayState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/statemanager/states/RespawnState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/states/RespawnState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/statemanager/states/SettingsState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/managers/states/SettingsState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/avbo/game/util/handler/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/avbo/game/util/handler/KeyHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="9014" />
+    <option name="totalTimeSeconds" value="28346" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -82,25 +97,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/tagliani.fed.2005/.m2/repository/jsfml/jsfml.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tagli/IdeaProjects/AdventureGame/src/main/resources/maps&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tagli\IdeaProjects\AdventureGame\src\main\resources\maps" />
+      <recent name="C:\Users\tagli\IdeaProjects\AdventureGame\src\main\resources\font" />
+      <recent name="C:\Users\tagli\IdeaProjects\AdventureGame\src\main\resources\entity" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.GameLauncher">
     <configuration name="GameLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.avbo.game.GameLauncher" />
@@ -114,6 +137,38 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdventureGame [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="AdventureGame [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -136,8 +191,103 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JarApplication">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AdventureGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AdventureGame" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KtorApplicationConfigurationType" factoryName="Ktor">
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="includeProvidedScope" value="true" />
+      <option name="mainClass" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="shortenCommandLine" />
+      <option name="vmParameters" value="" />
+      <option name="workingDirectory" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MicronautRunConfigurationType" factoryName="Micronaut">
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="includeProvidedScope" value="true" />
+      <option name="mainClass" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="shortenCommandLine" />
+      <option name="vmParameters" value="" />
+      <option name="workingDirectory" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AdventureGame [assemble]" />
         <item itemvalue="Application.GameLauncher" />
         <item itemvalue="Gradle.AdventureGame [build]" />
       </list>
@@ -155,6 +305,8 @@
       <workItem from="1673508562650" duration="103000" />
       <workItem from="1673508679554" duration="7103000" />
       <workItem from="1673691702830" duration="4400000" />
+      <workItem from="1673724693332" duration="12613000" />
+      <workItem from="1673776003022" duration="9959000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1673508877433</created>
@@ -212,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673517246952</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Primo Sprite e prima Scritta">
+      <created>1673737349168</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673737349168</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +388,7 @@
     <MESSAGE value="se non va mi ammazzo" />
     <MESSAGE value="provimo" />
     <MESSAGE value="Generazione Mappa Protoripo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generazione Mappa Protoripo" />
+    <MESSAGE value="Primo Sprite e prima Scritta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primo Sprite e prima Scritta" />
   </component>
 </project>

@@ -1,7 +1,7 @@
-package it.avbo.game.statemanager;
+package it.avbo.game.managers;
 
 import it.avbo.game.GamePanel;
-import it.avbo.game.statemanager.states.*;
+import it.avbo.game.managers.states.*;
 import it.avbo.game.util.handler.KeyHandler;
 import it.avbo.game.util.handler.MouseHandler;
 import it.avbo.game.util.math.Vector2f;

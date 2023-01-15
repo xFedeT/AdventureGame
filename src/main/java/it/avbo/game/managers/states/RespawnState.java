@@ -1,15 +1,13 @@
-package it.avbo.game.statemanager.states;
+package it.avbo.game.managers.states;
 
-import it.avbo.game.statemanager.GameState;
-import it.avbo.game.statemanager.GameStateManager;
+import it.avbo.game.managers.GameStateManager;
 import it.avbo.game.util.handler.KeyHandler;
 import it.avbo.game.util.handler.MouseHandler;
 
 import java.awt.*;
 
-public class SettingsState extends GameState {
-
-    public SettingsState(GameStateManager gameStateManager) {
+public class RespawnState extends GameState {
+    public RespawnState(GameStateManager gameStateManager) {
         super(gameStateManager);
     }
 
